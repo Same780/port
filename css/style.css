@@ -1,0 +1,241 @@
+@import url(fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Montserrat";
+    background:#151515;
+
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    
+}
+.nav{
+    padding: 6px 0;
+    background: #282828;
+}
+
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.nav__content{
+    display: flex;
+    align-items: center;
+}
+ 
+
+ .menu__link{
+     padding-left: 30px;
+     color: #fff;
+     font-size: 20px;
+     font-weight: 700;
+     font-family: "Montserrat";
+ }
+
+
+ .icon{
+     display: flex;
+     margin-left: auto;
+ }
+
+ .icon__link{
+    padding-left: 25px;
+    color: #fff;
+ }
+ 
+
+ .cofe{
+    background-image: url(../images/Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+   
+     
+ }
+ .cofe__title{
+  font-size: 100px;
+  font-weight: 400;
+  font-family:"ProstoOne" ;
+  text-align: center;
+  line-height: 75px;
+ }
+ .cofe__link{
+     color: black;
+     max-width: 200px;
+     width: 100%;
+     background: #fff;
+     border-radius: 7px;
+     padding: 13px ; 
+     font-size: 20px;
+     font-weight: 500;
+     display: flex;
+     margin: 0 auto;
+     margin-top: 32px;
+     align-items: center;
+ }
+ .cofe__icon{
+ font-size: 16px;
+ margin-left: 11px;
+ }
+ 
+ .headphones__air{
+     display: flex;
+     align-items:center;
+     justify-content: space-between;
+ }
+ .headphones__air_top{
+     align-items: flex-start;
+ }
+ .headphones__par{
+     max-width: 540px;
+     width: 100%;
+     color: #fff;
+     font-weight: 500;
+     font-size: 22px;
+ }
+ .headphones__par_mt{
+     margin-top: 33px
+ }
+ .headphones__img{
+     max-width: 552px;
+ }
+ .headphones__img_mr{
+     margin-right: -15px;
+ }
+ .headphones__img_ml{
+    margin-left: 26px;
+    margin-bottom: 50px;
+ }
+ .headphones__text{
+     max-width: 333px;
+     width: 100%;
+     font-weight:700 ;
+     font-size: 20px;
+color: #fff;
+
+ }
+ .headphones__text_r{
+        text-align: right;
+ } 
+ .headphones__line{
+     width: 61px;
+     height: 1px;
+     background: #C4C4C4;
+
+ }
+ .headphones__img_mt{
+     margin-top: -35px;
+     max-width: 269px;
+ }
+ .headphones__air_btm{
+    margin-bottom: 85px;
+ }
+
+
+ .card{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .card__iphone{
+     max-width: 255px;
+     width: 100%;
+     height: 312px;
+     background: #fff;;
+     border-radius: 6px;
+     padding: 15px;
+     text-align: center;
+     margin-top: 79px;
+     margin-bottom: 63px;
+ }
+
+ .card__apple{
+     height: 167px;
+     margin: auto;
+     
+ }
+ .card__title{
+     font-size: 20px;
+     font-weight: 700;
+     margin-bottom: 10px;
+     font-weight: 700;
+     font-family: "Montserrat";
+     
+ }
+ .card__prewiev{
+     margin-top: 10px;
+     margin-bottom: 20px;
+     font-size: 14px;
+     font-family: "Montserrat";
+     font-weight: 400;
+    
+ }
+ .btn{
+    background: #151515;
+    color: #fff;
+    max-width: 161px;
+    width: 100%;
+    min-height: 34px;
+    text-align: center ;
+    padding: 7px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-family: "Montserrat";
+ }
+
+
+.nav__footer{
+    height: 215px;
+    background: #282828;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.menu_footer{
+    margin-left: 339px;
+}
+.icon_footer{
+    font-size: 60px;
+}
+
+.nav{
+    background: none;
+}
+
+.menu__link_foot{
+    padding-bottom: 10px;
+}
+
+footer{
+    margin-top: 50px;
+}

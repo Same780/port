@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My work</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="logo" href="#">
+                    <img src="img/svg/logo-light.svg" alt="" class="logo__light">
+                    <img src="img/svg/logo-dark.svg" alt="" class="logo__dark">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Переключатель навигации">
+                    <i class="fal fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="menu navbar-nav ms-lg-auto row align-items-lg-center">
+                        <li class="nav-item col-md-4">
+                            <a class="menu__link" href="#">About me</a>
+                        </li>
+                        <li class="nav-item col-md-2">
+                            <a class="menu__link" href="#">Works</a>
+                        </li>
+                        <li class="nav-item col-md-4">
+                            <a class="menu__link button" href="#">to order</a>
+                        </li>
+                        <li class="nav-item col-md-2">
+                            <a class="menu__link" href="tel:+998901234567">
+                                <i class="menu__icon fal fa-phone-square-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="slider">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="row text-center text-xl-start">
+                        <div class="col-xl-6 order-last order-xl-first mt-5 mt-xl-0">
+                            <div class="col-xl-10 ms-auto">
+                                <p class="slider__subtitle">My beginning</p>
+                                <h1 class="slider__title">Self-development and training in the training center</h1>
+                                <a href="" class="button slider__btn">GET STARTED NOW</a>
+                            </div>
+                            <div class="row text-center">
+                                <div class="col-md-4 col-6">
+                                    <img src="img/html.png" alt="" class="slider__logo">
+                                    <h4 class="slider__name">HTML</h4>
+                                </div>
+                                <div class="col-md-4 col-6">
+                                    <img src="img/css.png" alt="" class="slider__logo">
+                                    <h4 class="slider__name">CSS</h4>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <img src="img/bootstrap.png" alt="" class="slider__logo">
+                                    <h4 class="slider__name">bootstrap 5</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/slide-1.png" class="slider__img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slide-2.png" class="slider__img" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-indicators slider__indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active slider__dot" aria-current="true" aria-label="Slide 1"></button>
+                            <button class="slider__dot" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rectangle rectangle_1"></div>
+            <div class="rectangle rectangle_2"></div>
+            <div class="rectangle rectangle_3"></div>
+            <div class="rectangle rectangle_4"></div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 mb-5 mb-xl-0 position-relative text-center">
+                        <p class="about__slogan">
+                            my work for
+                            <span class="about__rating">5+</span>
+                        </p>
+                        <img src="img/about.png" alt="" class="about__img">
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="about__content">
+                            <h2 class="about__title">What is Frond-End</h2>
+                            <p class="about__desc">it is the development of of the user interface and functions that run
+                                on on the client side of a website or application
+                                This is everything that a user sees when opening a or aweb page and with which he
+                                interacts.</p>
+                            <p class="about__desc">This is everything that a user sees when opening a web page and with
+                                which he interacts.</p>
+                            <a href="" class="button about__btn">go to work</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/svg/figure_1.svg" alt="" class="shape shape_right">
+        </section>
+        <section class="capabil">
+            <div class="container">
+                <h2 class="title">capabilities</h2>
+                <div class="row flex-wrap-reverse align-items-center">
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <a class="capabil__btn collapsed" data-bs-toggle="collapse" data-bs-target="#html">
+                                    <img src="img/html.png" alt="" class="capabil__logo">
+                                    <i class="fab fa-html5 capabil__icon"></i>
+                                    HTML
+                                    <i class="fas fa-caret-up capabil__arrow"></i>
+                                </a>
+                                <div id="html" class="collapse">
+                                    <p class="capabil__desc" data-bs-parent="#accordionExample">
+                                        HyperText Markup Language is the computer language that facilitates website creation. The language, which has code words and syntax just like any other language, is relatively easy to comprehend and, as time goes on, increasingly powerful in what it allows someone to create. HTML continues to evolve to meet the demands and requirements of the Internet under the guise of the World Wide Web Consortium, the organization that designs and maintains the language; for instance, with the transition to Web 2.0.
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <a class="capabil__btn collapsed" data-bs-toggle="collapse" data-bs-target="#css">
+                                    <img src="img/css.png" alt="" class="capabil__logo">
+                                    <i class="fab fa-css3-alt capabil__icon"></i>
+                                    css
+                                    <i class="fas fa-caret-up capabil__arrow"></i>
+                                </a>
+                                <div id="css" class="collapse">
+                                    <p class="capabil__desc" data-bs-parent="#accordionExample">
+                                        What is CSS and why it is used?
+What is CSS? CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <a class="capabil__btn" data-bs-toggle="collapse" data-bs-target="#java">
+                                    <img src="img/js.png" alt="" class="capabil__logo">
+                                    <i class="fab fa-js capabil__icon"></i>
+                                    Javascript
+                                    <i class="fas fa-caret-up capabil__arrow"></i>
+                                </a>
+                                <div id="java" class="collapse">
+                                    <p class="capabil__desc" data-bs-parent="#accordionExample">
+                                        aJavascript (JS) is a scripting languages, primarily used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an interpreted language. Thus, it doesn't need to be compiled. JavaScript renders web pages in an interactive and dynamic fashion.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <a class="capabil__btn" data-bs-toggle="collapse" data-bs-target="#bootstrap">
+                                    <img src="img/bootstrap.png" alt="" class="capabil__logo">
+                                    <i class="fab fa-bootstrap capabil__icon"></i>
+                                    bootstrap
+                                    <i class="fas fa-caret-up capabil__arrow"></i>
+                                </a>
+                                <div id="bootstrap" class="collapse show">
+                                    <p class="capabil__desc" data-bs-parent="#accordionExample">
+                                        a means of advancing oneself or accomplishing something: He used his business experience as a bootstrap to win voters. adjective. relying entirely on one's efforts and resources: The business was a bootstrap operation for the first ten years.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center mb-5 mb-lg-0">
+                        <img src="img/capabilities.png" alt="" class="capabil__img">
+                    </div>
+                </div>
+            </div>
+            <div class="rectangle rectangle_5"></div>
+            <div class="rectangle rectangle_6"></div>
+        </section>
+        <section class="works">
+            <div class="container">
+                <h2 class="title">My Works</h2>
+                <div class="row flex-wrap-reverse">
+                    <div class="col-xl-3">
+                        <ul class="nav flex-xl-column" role="tablist">
+                            <li class="works__item" role="presentation">
+                                <a class="works__link active" data-bs-toggle="tab"
+                                    data-bs-target="#reebok" role="tab">Magazine</a>
+                            </li>
+                            <li class="works__item" role="presentation">
+                                <a class="works__link" data-bs-toggle="tab"
+                                    data-bs-target="#vue" role="tab">Vue cinema </a>
+                            </li>
+                            <li class="works__item" role="presentation">
+                                <a class="works__link" data-bs-toggle="tab"
+                                    data-bs-target="#tnw" role="tab">airpods</a>
+                            </li>
+                            <li class="works__item" role="presentation">
+                                <a class="works__link" data-bs-toggle="tab"
+                                    data-bs-target="#orange" role="tab">Street88</a>
+                            </li>
+                            <li class="works__item" role="presentation">
+                                <a class="works__link" data-bs-toggle="tab"
+                                    data-bs-target="#boulevard" role="tab">JS Watch</a>
+                            </li>
+                            <li class="works__item" role="presentation">
+                                <a class="works__link" data-bs-toggle="tab"
+                                    data-bs-target="#smth" role="tab">Portfolio2</a>
+                            </li>
+                            
+                              
+                        </ul>
+                    </div>
+                    <div class="col-xl-9 mb-3 mb-xl-0">
+                        <div class="tab-content">
+                            <div class="works__content tab-pane fade show active" id="reebok" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/_C__Users_User_Desktop_IT_OpenShop_index.html.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h3 class="works__title">
+                                            <span class="works__span">Magazine</span> 
+                                            Layout
+                                        </h3>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam</p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="OpenShop/index.html" class="button works__btn">details</a>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="works__content tab-pane fade" id="vue" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/vue-cinemas.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h3 class="works__title">
+                                            <span class="works__span">Vue Cinema</span> 
+                                            
+                                        </h3>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam</p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="vue/index.html" class="button works__btn">details</a>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="works__content tab-pane fade" id="tnw" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/boulevard-market.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h3 class="works__title">
+                                            <span class="works__span">Apple Store</span> 
+                                           
+                                        </h3>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam</p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="airpods/index.html" class="button works__btn">details</a>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="works__content tab-pane fade" id="orange" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/street88.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h3 class="works__title">
+                                            <span class="works__span">Street 88</span> 
+                                           
+                                        </h3>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam</p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="stree88/index.html" class="button works__btn">details</a>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="works__content tab-pane fade" id="boulevard" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/_C__Users_User_Desktop_IT_clock_index.html.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h3 class="works__title">
+                                            <span class="works__span">JS Watch</span> 
+                                            Layout
+                                        </h3>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam</p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="clock/index.html" class="button works__btn">details</a>
+                                    </div>                                    
+                                </div>
+                            </div>
+                           
+                            <div class="works__content tab-pane fade" id="smth" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/portfolio.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h3 class="works__title">
+                                            <span class="works__span">Portfolio</span> 
+                                            Layout
+                                        </h3>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam</p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="index.html" class="button works__btn">details</a>
+                                    </div>                                    
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/svg/figure_2.svg" class="shape shape_left">
+            <div class="rectangle rectangle_7"></div>
+            <div class="rectangle rectangle_8"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container ">
+            <ul class="menu navbar-nav ms-lg-auto row align-items-lg-center">
+                <li class="nav-item col-md-4">
+                    <a class="menu__link menu__link_foot" href="#">About me</a>
+                </li>
+                <li class="nav-item col-md-2">
+                    <a class="menu__link menu__link_foot" href="#">Works</a>
+                </li>
+                <li class="nav-item col-md-4">
+                    <a class="menu__link menu__link_foot button" href="#">to order</a>
+                </li>
+                <li class="nav-item col-md-2">
+                    <a class="menu__link menu__link_foot" href="tel:+998901234567">
+                        <i class="menu__icon fal fa-phone-square-alt"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

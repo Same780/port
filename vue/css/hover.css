@@ -1,0 +1,31 @@
+.films__card:hover .films__icon {
+    transform: scale(1.8) rotateX(180deg);
+}
+.films__card:hover .films__time {
+    opacity: 0;
+    transform: scale(0) translateX(150px);
+}
+.films__card:hover .films__img {
+    transform: scale(1.5);
+}
+
+.collection__card:hover .collection__content::before {
+    transform: translateY(150%);
+}
+.collection__card:hover .collection__content::after {
+    transform: translateY(-150%);
+}
+.collection__card:hover .collection__img {
+    transform: scale(1.8);
+}
+.collection__card:hover .collection__icon {
+    transform: scale(1.5);
+}
+
+.series__card:hover .series__img {
+    transform: scale(1.5);
+}
+
+.series__card:hover .series__icon {
+    transform: scale(1.5) rotateX(180deg);
+}

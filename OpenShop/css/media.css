@@ -1,0 +1,306 @@
+@media (prefers-color-scheme: dark) {
+    :root{
+     --bgBody:#313131;
+     --bgNav:#0C0C0C;
+     --colorDesc:#fff;
+     --searchI:#313131;
+     --borderSearch:#fff;
+     --logoWHite:none;
+     --logoBlack:inline-block;
+     --bgdark: #0C0C0C;
+     --boxShadowdark: 0px 0px 2px rgba(255, 255, 255, 0.3);
+     --textcolor:#fff;
+    }
+
+    .logo__white{
+        display: none;
+    }
+
+    .logo__dark{
+        display: inline-block;
+    }
+   
+    .search__i{
+     border-color: #fff;
+    }
+     
+    .about__btn{
+     color: #fff;
+    }
+    .apple__link{
+        color:#fff;
+    }
+    
+ }
+@media (max-width:991px) {
+    .foot__desc{
+        display: none;
+    }
+
+}
+@media (max-width:991px) {
+    .about__link{
+        text-align: left;
+        margin-top: 20px;
+    }
+       .console__img{
+        text-align: center;
+       }
+      
+    .console__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer.nav__open{
+        flex-direction: none;
+    }
+
+    .iphone__card:nth-of-type(3){
+        margin: 0;
+    }
+    
+    .iphones__group{
+        display: flex;
+        flex-direction: column;
+    }
+    .iphone__card{
+        margin-right: 0;
+    }
+    .iphone__card:nth-of-type(1){
+        margin-left: 105px;
+ 
+     }
+     .iphone__card:nth-of-type(3){
+         margin-left: 100px;
+     }
+
+    
+    
+}
+
+
+@media(max-width:768px){
+    
+}
+@media(max-width:576px){
+    .container{
+        max-width: 520px;
+        width: 100%;
+
+    }
+
+
+    
+
+  
+ 
+    
+
+    .nav{
+        flex-direction: column;
+        text-align: center;
+     }
+    
+    
+        .nav__link{
+            margin: 0;
+        }
+    
+       
+    
+    .for__xs{
+        justify-content: center;
+       
+    }
+   
+    .icon{
+        position: absolute;
+       
+        
+    }
+    
+   
+    
+
+    .nav{
+        list-style: none;
+        height: 100px;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        
+      
+     }
+
+
+     .nav-item{
+        margin-top: 10px; 
+     }
+    
+ 
+}
+
+  @media(max-width:576px){
+   .container{
+    max-width: 576px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .console__title{
+    font-weight: 600;
+    padding-top: 20px;
+    font-size: 30px;
+   }
+
+   .xbox__title{
+    font-size: 30px;
+   }
+
+   .xbox__desc{
+    display: none;
+   }
+   .apple__1{
+    padding-left: 40px;
+   }
+
+   .apple__title{
+     
+     font-size: 18px;
+     max-width: 560px;
+     width: 100%;
+    
+   }
+
+   .apple__3{
+    text-align: center;
+
+   }
+  }
+
+
+@media(min-width:1200px){
+
+    .watch__content{
+        width: 100%;
+        
+    }
+
+    .xbox__photo{
+        display: none;
+    }
+    
+
+   
+
+    .iphone__card{
+
+    }
+
+    .img___card{
+    
+        position: absolute;
+    }
+
+    .watch__card{
+        position: relative;
+        max-width: 800px;
+        display: inline-block;
+       
+
+    }
+
+      .watch__card:nth-of-type(2){
+        max-width: 900px;
+        width: 100%;
+      }
+   
+    .watch__sll{
+        width: 100%;
+    }
+
+    .hp{
+        position: absolute;
+        top: 30px;
+    }
+    .xbox__title{
+        text-align: start;
+    }
+     
+    .xbox__desc{
+        max-width: 454px;
+        width: 100%;
+        text-align: start;
+        font-size: 24px;
+    }
+
+    .for__xs{
+        display: flex;
+        flex-direction:none;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+   
+}
+
+@media(max-width:1200px){
+    .iphones__group{
+        flex-wrap: wrap;
+    }
+    .iphone__card_laptop:nth-of-type(2){
+       text-align: center;
+    }
+    .iphone__card:nth-of-type(3){
+       
+       margin-right: 100px;
+    }
+      
+    .xbox__img{
+        display: none;
+    }
+
+    .btn__shop_first{
+        display: none;
+    }
+
+    .btn__shop_end{
+        display: inline-block;
+    }
+    .iphone__content{
+        
+    }
+    .iphone__card:nth-of-type(1){
+        margin-right: 60px;
+ 
+     }
+     .iphone__card:nth-of-type(3){
+         
+         text-align: center;
+     }
+     .vrlg__img{
+        display: inline-block;
+        max-width: 600px;
+        width: 100%;
+     }
+     .vr__img{
+        display: none;
+     }
+
+     .img__vr{
+        text-align: center;
+     }
+     
+     .vr__all{
+        margin: 0 auto;
+     }
+     .vr__text{
+        text-align: center;
+        margin: 0 auto;
+     }
+}

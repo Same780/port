@@ -1,0 +1,119 @@
+@media(max-width:1200px){
+    .container{
+        max-width: 992px;
+    }
+    .headphones__par {
+        max-width: 450px;
+    }
+    .headphones__img{
+        max-width: 450px;
+    }
+    .headphones__img_mt{
+        max-width: 200px;
+    }
+    .headphones__text{
+        max-width: 180px;
+    }
+    .card__iphone{
+        max-width: 210px;
+    }
+}
+@media(max-width:992px){
+    .container{
+        max-width: 728px;
+    }
+    .cofe__title{
+        font-size: 70px;
+         
+    }
+     .headphones__air{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .headphones__img{
+        order: -1;
+    }
+
+    .headphones__par{  
+         max-width: 100%;
+         text-align: center;
+}
+    .headphones__text{
+        max-width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .headphones__img_mt{
+        margin-top: 15px;
+    }
+
+    .headphones__line{
+        display: none;
+    }
+    .card{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card__iphone{
+        max-width: 255px;
+    
+    }
+    .menu_footer{
+        margin-left: 0;
+    }
+}
+    
+@media(max-width:768px){
+    .container{
+        max-width: 540px;
+        
+    }
+    .card__iphone{
+        max-width: 210px;
+        
+    }
+    footer .nav__content{
+        justify-content: center;
+    }
+    .icon{
+        margin-left:0;
+    }
+}
+
+
+@media(max-width:520px){
+  .nav__content{
+      flex-direction: column;
+    }
+    .icon{
+      margin-left: 0;
+
+  }
+  .menu__link{
+      padding: 10px 15px;
+      display: inline-block;
+  }
+  .icon__link{
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  .cofe__link{
+    font-size: 16px;
+}
+  .card{
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .headphones__img{
+      width: 100%;
+  }
+
+
+.cofe__title{
+
+}
+
+  
+}

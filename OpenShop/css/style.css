@@ -1,0 +1,817 @@
+ @import url(fons.css); 
+ /* ROOT start */
+ :root {
+     --fontBase:"NotoSans";
+     --bgBody:#fff;
+     --color:#313131;
+     --boxHover: 0px 0px 2px rgba(0, 0, 0, 0.3);
+     --linkColor:#ABABAB;
+     --colorDisabled:#ABABAB;
+     --bgNav:#313131;
+     --colorDesc:#fff;
+     --logoWHite:inline-block;
+     --logoBlack:none;
+     --searchI:#fff;
+     --borderSearch:#313131;
+     --bgdark: #FFFFFF;
+     --boxShadowdark: 0px 0px 2px rgba(0, 0, 0, 0.3);
+   
+  
+ }
+ body{
+     background: var(--bgBody);
+     color: var(--color);
+     margin: 0;
+ }
+ 
+  .nav-link:hover{
+     color: var(--bgBody);
+    
+    
+
+  }
+ .search__i:hover{
+    background: var(--color);
+
+    }
+
+ a{
+     text-decoration: none;
+    
+    }
+    
+
+ .nav{
+     background:var(--bgNav);
+     
+     
+    }
+.ul{
+    list-style: none;
+}
+
+ 
+ .nav__link{
+     margin-right: 50px;
+     display: block;
+    }
+    
+    
+    .nav-link{
+     color:var(--colorDesc);
+     font-size: 14px;
+     margin-left: 7px;
+    }
+    
+    
+    
+    .nav__link:hover .lang{
+        
+        opacity: 1;
+    }
+  
+    
+ 
+ 
+ 
+ 
+  .lang{
+      background: var(--bgBody);
+      color: var(--color);
+      z-index: 99;
+      text-align: center;
+      font-size: 14px;
+      width: 100%;
+      height: 100%;
+      color: var(--borderSearch);
+    
+  }
+
+
+  .lang_rus{
+    color: var(--colorDisabled);
+    z-index: 99;
+  }
+  
+  
+  .icon{
+    min-width: none;
+  }
+
+.btn__shop{
+    background: var(--color);
+    border: 1px solid;
+    width: 190px;
+    height: 50px;
+    border-color:#FFFFFF;
+    border-radius: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 13px;
+    margin-top: 71px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.icon__link {
+    min-width: 0rem;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    box-shadow: var(--boxHover);
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    background: var(--bgBody);
+    border: 0;
+    flex-direction: column;
+
+}
+  .small{
+      box-shadow: var(--boxHover);
+      color: var(--linkColor);
+  }
+    
+         
+     
+.icon__btn{
+    font-size: 40px;
+}
+    
+
+.title{
+    font-size: 5px;
+}
+    
+
+ 
+ /* ROOT end */
+ /* =================== */
+ /* HEADER start */
+
+      .logowhite, .logodark{
+        display: var(--logoWHite);
+      }
+      .logodark{
+        display: var(--logoBlack);
+      }
+      .slider__press{
+        position: relative;
+      }
+      
+
+
+      .search__map{
+          max-width: 630px;
+          width: 100%;
+          border-radius: 0;
+        }
+
+
+      .btn__open{
+         border: none;
+         color: var(--bgBody);
+         font-size: 14px;
+         font-weight: 400;
+         background: var(--color);
+        }
+
+        
+        .search__i{
+            background: var(--color);
+            max-width: 190px;
+            width: 100%;
+            height: 50px;
+            background: var(--color);
+            border-radius: 0;
+           
+      }
+      
+     
+      
+      
+
+      
+      .nav__open{
+          border-radius: none;
+          border: var(--color);
+    }
+
+    form .me-2{
+        font-size: 14px;
+        border-radius: 0;
+        border: 0;
+    }
+    
+    .header__nav{
+        margin-top: 24px;
+    }
+    form{
+      
+        border: 1px solid;
+        background: var(--searchI);
+        border-color: var(--borderSearch);
+    }
+    .me-2 {
+        background: var(--bgBody);
+        
+
+    }
+    .btn__open{
+        color: #fff;
+        background: #313131;
+    }
+    .search__i{
+        border-color: var(--borderSearch);
+        border: 0.1px solid;
+    }
+ /* HEADER end */
+
+ /* =================== */
+
+/* ABOUT start */
+.about{
+    margin-top: 32px;
+}
+.about__link{
+    text-align: center;
+    color: var(--borderSearch);
+    margin: 0 14px;
+    color: var(--borderSearch);
+}
+
+
+.about__title{
+    color: var(--borderSearch);
+}
+
+
+.about__cute{
+    font-size: 14px;
+    background: --;
+    font-weight: 100;
+    line-height: 13px;
+    color: var(--borderSearch);
+    
+}
+  
+
+
+
+
+.about__all{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+.about__star{
+    max-width: 300px;
+   
+    height: 210px;
+    background: var(--bgdark);
+    box-shadow: var(--boxShadowdark);
+}
+
+.dropdown-menu.show{
+    display: flex;
+}
+/* ABOUT end */
+/* =================== */
+/* SLIDER start */
+.slider{
+    margin-top: 50px;
+}
+.img__slider{
+ height: 700px;
+width: 100%;
+object-fit: cover;
+border-radius: 0px;
+
+
+}
+
+.img__slider{
+    text-align: center;
+}
+.slider__btn{
+    position: absolute;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    color: #000;
+    left: 50%;
+    right: 50%;
+    background: #000;
+}
+
+.icon__slide{
+    display: flex;
+    background: #000;
+}
+
+.carousel-indicators{
+    background-color: none;
+}
+
+.icon__sbtn{
+    background: #000;
+}
+
+.slider__btn.active{
+    position: absolute;
+    border-radius: 50%;
+    height: 0px;
+    width: 15px;
+    width: 100%;
+    color: #000;
+    
+    background: #000;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+ header.active.slider__btn{
+  
+}
+.slider__preview{
+    
+    
+    text-align: center;
+}
+.title{
+    color: var(--borderSearch);
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+/* SLIDER end */
+/* =================== */
+
+
+
+ /*  WAtch start */
+ 
+ .card__per{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    background: #313131;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 20px;
+    
+ }
+ .all{
+     font-size: 24px;
+ }
+
+ .card__title{
+    color: #313131;
+ }
+
+ .cost{
+    font-weight: 100;
+ }
+ .img___card{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+ }
+ .watch__card{
+    position: relative;
+    background: #F9F9F9;
+ }
+
+
+ .card__per_sec{
+    position: relative;
+    margin-left: 15px;
+    margin: 10px;
+ }
+ .all{
+    position: relative
+    ;
+    display: grid;
+    margin-left: 15px;
+    margin: 10px;
+}
+
+.card__per{
+   text-align: start;
+}
+.all_sec{
+   
+    top: 60px;
+    
+ }
+ .all_first{
+    top: 360px;
+ }
+
+
+.card__per_first{
+    position: relative;
+    margin: 10px;
+    left: 15px;
+}
+ 
+ .watch__sll{
+   
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+ }
+ .watch__card:nth-of-type(1){
+    grid-column: span 2 ;
+    grid-row: span 2;
+    min-height: 600px;
+    width: 100%;
+ }
+ .watch__card:nth-of-type(2){
+    grid-column: span 2;
+    min-height: 235px;
+    width: 100%;
+    height: 100%;
+ }
+ .watch__card:nth-of-type(3){
+    grid-column: span 1;
+  
+    width: 100%;
+    min-height: 235px;
+    height: 100%;
+ }
+ .watch__card:nth-of-type(4){
+    grid-column: span 1;
+    height: 100%;
+    width: 100%;
+    min-height: 235px;
+ }
+
+.btn__shop__open{
+   margin-left: 50%;
+   margin-right: 50%;
+   margin-top: 40px;
+    
+}
+ /*  WATCH end */
+/* =================== */
+
+.title__phones{
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+.title__phones_second{
+    padding-top: 100px;
+}
+
+ .iphone__title{font-size: 16px;}
+.iphones__group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone__card_index{
+   
+    text-align: center;
+}
+.title__phones{
+    
+}
+
+   
+
+.title__phones{
+    font-size: 36px;
+    font-weight: 600;
+}
+    
+
+
+                                                                                                                                                                             
+    .iphone__title{
+        text-align: center;
+        }
+
+.iphone__text{
+   
+   
+   position: relative;
+   bottom: 40px;
+}
+
+    .iphone__desc{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .btn__shop_iphone{
+        text-align: center;
+    }
+    .btnbuy__iphone{
+        text-align: center
+    }
+    
+
+    .iphone__link{
+        
+        margin: 0 auto;
+        
+        width: 190px;
+        height: 50px;
+        
+
+    }
+
+    .btn__shop_silver{
+        margin-right: 40px;
+    }
+
+    .btn__iphone{
+        text-align: center;
+        background: #000;
+        color: #fff;
+        height: 50px;
+        max-width: 190px;
+        width: 100%;
+    }
+    
+
+    .laptop{
+        margin-top: 100px;
+       
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .iphone__card_laptop{
+        margin-right: 30px;
+    }
+
+    .ol{
+       
+        object-fit: cover;
+        
+    }
+.laptop{
+    margin-bottom: 164px;
+}
+    .console{
+        
+        
+    }
+.console__bg{
+        object-fit: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: cover;
+        margin: 0 auto;
+}
+
+.iphone__title{
+    color: var(--borderSearch);
+}
+.iphone__desc{
+    color: var(--borderSearch);
+}
+.btn__shop{
+    color: var(--borderSearch);
+}
+.btn__shop_end{
+    display: none;
+}
+
+.console__first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   .console__title{
+    font-weight: 600;
+    padding-top: 20px;
+    font-size: 48px;
+   }
+
+   .btn__shop_last{
+    margin-top: 30px;
+   }
+
+   .icon{
+    font-size: 70px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    color: black;
+   }
+
+
+    
+    
+
+
+
+
+.foot__desc{
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    
+   
+}
+
+
+
+.footer__menu{
+    display: flex;
+    
+}
+.foot__link{
+    padding-right: 20px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+
+
+
+.footer__about{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   align-items: center;
+    
+   
+}
+
+.footer__a{
+    margin-right: 30px;
+    color: #fff;
+}
+
+
+ .btn__shop{
+    color: #fff;
+ }
+  
+
+
+
+   .footer{
+    background: var(--bgNav);
+    margin-top: 70px;
+    padding-bottom: 45px;
+   }
+
+   .logodark_foot{
+    display: inline-block;
+   }
+
+.xbox__pic{
+    position: relative;
+}
+
+.xbox__img{
+text-align: center;
+}
+.xbox__title{
+    font-size: 48px;
+}
+
+.xbox__desc{
+    font-size: 24px;
+}
+
+.xbox__row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.xbox{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+.header__nav{
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+.apple__1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.apple__menu{
+    list-style: circle;
+}
+
+.apple__link{
+    color: #000;
+}
+
+.apple__cost{
+    margin-top: 45px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.apple__desc{
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.playstationvr{
+   
+  
+}
+
+.vr__text{
+    color: var(--borderSearch);
+}
+
+.vrlg__img{
+    display: none;
+    text-align: center;
+}
+
+.playst__title{
+    margin-top: 60px;
+}
+
+.img__iphone{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+    
+
+}
+
+.console__first{
+    color: var(--textcolor);
+}
+
+.hp{
+    color: var(--borderSearch);
+}
+
+.plat__text{
+   
+}
+
+.apple__3{
+    color: var(--borderSearch);
+}
+
+
+
+.logo__dark{
+    display: none;
+}
+
+.number__link{
+    color: var(--borderSearch);
+}
+
+.number__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+   
+}
+.pagination{
+    --bs-pagination-bg: none;
+}
+.number__li{
+   
+}
+
+.apple__slide{
+    margin-top: 50px;
+}
